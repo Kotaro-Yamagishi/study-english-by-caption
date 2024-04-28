@@ -1,0 +1,1 @@
+docker-compose exec backend poetry add $1

@@ -1,0 +1,740 @@
+2024-04-14 14:59:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 14:59:29:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 14:59:29:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 14:59:29:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 14:59:29:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 14:59:29:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 14:59:30:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 14:59:30:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 14:59:31:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 14:59:31:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 14:59:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 14:59:31:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 14:59:31:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 14:59:31:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 14:59:31:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 14:59:31:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 14:59:31:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 14:59:31:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 14:59:32:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word word
+2024-04-14 15:00:45:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:00:45:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:00:45:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:00:45:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:00:45:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:00:45:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:00:46:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:00:46:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:02:58:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:02:58:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:02:58:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:02:58:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:02:58:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:02:58:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:02:58:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:02:58:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:02:59:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:02:59:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:02:59:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:02:59:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:02:59:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:02:59:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:02:59:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:02:59:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 15:03:00:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word word
+2024-04-14 15:23:53:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:53:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:23:53:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:23:53:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:54:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:23:54:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:23:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:55:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2024-04-14 15:23:55:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:23:55:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:55:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:55:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:23:55:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:23:55:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:23:55:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:23:55:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:23:56:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:23:56:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 15:23:56:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word word
+2024-04-14 15:26:14:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:26:14:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:26:14:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:26:14:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:26:14:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:26:14:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:26:15:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:26:15:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:26:15:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:26:15:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:26:15:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/word
+2024-04-14 15:26:15:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:26:15:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:26:15:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:26:15:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:26:15:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 15:26:16:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word word
+2024-04-14 15:28:16:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:28:16:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:28:16:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/video
+2024-04-14 15:28:16:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:28:16:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:28:16:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:28:17:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:28:17:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:28:17:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:28:17:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:28:17:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:28:17:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:28:17:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/video
+2024-04-14 15:28:17:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:28:17:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:28:17:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:28:17:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:28:17:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 15:28:18:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word video
+2024-04-14 15:29:18:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:29:18:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:29:18:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/know
+2024-04-14 15:29:18:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:29:19:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:29:19:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:29:20:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:29:20:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 15:29:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:29:20:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 15:29:20:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/know
+2024-04-14 15:29:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 15:29:20:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:29:20:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 15:29:20:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 15:29:20:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 15:29:21:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:29:21:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 490, in _query_synonym_com
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 15:29:22:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 15:29:22:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 412, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 15:29:22:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word know
+2024-04-14 16:22:41:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:41:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:22:41:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/cancel
+2024-04-14 16:22:41:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:41:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:22:41:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:22:42:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:22:42:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:22:43:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:43:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:22:43:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/cancel
+2024-04-14 16:22:43:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:43:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:22:43:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:22:43:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:22:43:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 638, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:22:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:22:44:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 412, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:22:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:44:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2024-04-14 16:22:44:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/cancel
+2024-04-14 16:22:44:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:22:44:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:22:44:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 329, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:22:45:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word cancel
+2024-04-14 16:23:56:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:23:56:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:23:56:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/try
+2024-04-14 16:23:56:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:23:56:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:23:56:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:23:57:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:23:57:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:23:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:23:57:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:23:57:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/try
+2024-04-14 16:23:57:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:23:57:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:23:57:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:23:57:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:23:57:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:23:58:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:23:58:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 638, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:23:59:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:23:59:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 412, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:23:59:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word try
+2024-04-14 16:24:01:wordhoard.antonyms:ERROR: A TypeError occurred in the following code segment:
+2024-04-14 16:24:01:wordhoard.antonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/antonyms.py", line 385, in _query_wordhippo
+    for href_link in table_row.find('a', href=True):
+
+2024-04-14 16:30:01:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:30:01:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:30:01:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:30:01:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:30:01:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:30:01:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:30:02:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:30:02:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:30:02:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:30:02:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:30:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:30:02:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:30:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:30:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:30:02:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:30:02:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:30:02:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:30:02:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:30:03:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word mother
+2024-04-14 16:32:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:32:44:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:32:44:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:32:44:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:32:45:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:32:45:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:32:45:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:32:45:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:32:46:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:32:46:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:32:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:32:46:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:32:46:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:32:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:32:46:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:32:46:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:32:46:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:32:46:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:32:47:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word mother
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:33:32:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:33:32:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:33:32:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:33:32:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:33:32:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:33:33:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:33:33:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:33:33:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:33:33:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:33:33:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word mother
+2024-04-14 16:36:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:02:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:36:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/know
+2024-04-14 16:36:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:02:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:36:02:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:36:03:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:36:03:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:36:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:03:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:36:03:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/know
+2024-04-14 16:36:03:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 412, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:36:03:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 638, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-14 16:36:04:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word know
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/atempt
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:36:49:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/atempt
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.dictionary:INFO: Thesaurus.com had no definition reference for the word atempt
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/dictionary/atempt
+2024-04-14 16:36:49:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:49:wordhoard.dictionary:INFO: Merriam-webster.com has no definition reference for the word atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/atempt
+2024-04-14 16:36:50:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:50:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word atempt
+2024-04-14 16:36:50:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:36:50:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:36:51:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word atempt
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:51:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/atempt
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:51:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word atempt
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:51:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/atempt
+2024-04-14 16:36:51:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:36:51:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word atempt
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/atempt
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/atempt
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.dictionary:INFO: Thesaurus.com had no definition reference for the word atempt
+2024-04-14 16:37:06:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:06:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/atempt
+2024-04-14 16:37:06:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:06:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/dictionary/atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.dictionary:INFO: Merriam-webster.com has no definition reference for the word atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.synonym.com/synonyms/atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.synonyms:INFO: Synonym.com had no synonym reference for the word atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: Requested URL: https://www.thesaurus.com/browse/atempt
+2024-04-14 16:37:07:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:07:wordhoard.synonyms:INFO: Thesaurus.com had no synonym reference for the word atempt
+2024-04-14 16:37:07:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:07:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:07:wordhoard.synonyms:INFO: Wordnet had no synonym reference for the word atempt
+2024-04-14 16:37:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:08:wordhoard.utilities.request_html:ERROR: Response Status Code: 404
+2024-04-14 16:37:08:wordhoard.utilities.request_html:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2024-04-14 16:37:08:wordhoard.utilities.request_html:INFO: Requested URL: https://www.merriam-webster.com/thesaurus/atempt
+2024-04-14 16:37:08:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:08:wordhoard.synonyms:INFO: Merriam-webster.com had no synonym reference for the word atempt
+2024-04-14 16:37:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:20:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:20:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:37:20:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:21:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:21:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:21:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:37:21:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 557, in _query_thesaurus_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:37:21:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:21:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:21:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/mother
+2024-04-14 16:37:21:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:21:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:21:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:21:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:21:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:37:22:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word mother
+2024-04-14 16:37:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:46:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:46:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/attempt
+2024-04-14 16:37:46:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:46:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:46:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:47:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:37:47:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:37:48:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-14 16:37:48:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-14 16:37:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:48:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-14 16:37:48:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/attempt
+2024-04-14 16:37:48:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-14 16:37:48:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:48:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-14 16:37:48:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-14 16:37:48:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-14 16:37:49:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word attempt
+2024-04-15 13:38:17:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:17:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-15 13:38:17:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/textbook
+2024-04-15 13:38:17:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:17:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-15 13:38:17:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-15 13:38:17:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:38:17:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-15 13:38:18:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:38:18:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-15 13:38:19:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-15 13:38:19:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-15 13:38:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:19:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-15 13:38:19:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/textbook
+2024-04-15 13:38:19:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:19:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:38:19:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 638, in _query_wordnet
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-15 13:38:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:20:wordhoard.utilities.cloudflare_bypass:INFO: Cloudflare DDoS mitigation service protection bypass successful.
+2024-04-15 13:38:20:wordhoard.utilities.cloudflare_bypass:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/textbook
+2024-04-15 13:38:20:wordhoard.utilities.cloudflare_bypass:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:38:20:wordhoard.synonyms:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:38:20:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 329, in _query_collins_dictionary
+    self._update_cache(part_of_speech_category, synonyms_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 135, in _update_cache
+    caching.insert_word_cache_synonyms(self._word, pos_category, synonyms)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 65, in insert_word_cache_synonyms
+    temporary_dict_synonyms[word][pos_category] += deduplicated_values
+
+2024-04-15 13:38:21:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word textbook
+2024-04-15 13:40:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:40:00:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-15 13:40:00:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/effect
+2024-04-15 13:40:00:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:40:00:wordhoard.dictionary:ERROR: An AttributeError occurred in the following code segment:
+2024-04-15 13:40:00:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 310, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-15 13:40:01:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:40:01:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 403, in _query_merriam_webster
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-15 13:40:01:wordhoard.dictionary:ERROR: A KeyError occurred in the following code segment:
+2024-04-15 13:40:01:wordhoard.dictionary:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 483, in _query_synonym_com
+    self._update_cache(part_of_speech_category, definition_list)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/dictionary.py", line 137, in _update_cache
+    caching.insert_word_cache_definition(self._word, pos_category, definition)
+  File "/src/.venv/lib/python3.9/site-packages/wordhoard/utilities/caching.py", line 85, in insert_word_cache_definition
+    temporary_dict_definition[word][pos_category] += deduplicated_values
+
+2024-04-15 13:40:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:40:02:wordhoard.utilities.request_html:INFO: The requested URL is protected by Cloudflare's DDoS mitigation service.
+2024-04-15 13:40:02:wordhoard.utilities.request_html:INFO: Requested URL: https://www.collinsdictionary.com/dictionary/english-thesaurus/effect
+2024-04-15 13:40:02:wordhoard.utilities.request_html:INFO: --------------------------------------------------------------------------------
+2024-04-15 13:40:02:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-15 13:40:02:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 314, in _query_collins_dictionary
+    if fresh_soup.find('span', {'class': 'headerSensePos'}):
+
+2024-04-15 13:40:02:wordhoard.synonyms:ERROR: An AttributeError occurred in the following code segment:
+2024-04-15 13:40:02:wordhoard.synonyms:ERROR:   File "/src/.venv/lib/python3.9/site-packages/wordhoard/synonyms.py", line 564, in _query_thesaurus_com
+    for list_item in word_container.find('ul').find_all('li'):
+
+2024-04-15 13:40:03:wordhoard.antonyms:INFO: Thesaurus.com had no antonym reference for the word effect

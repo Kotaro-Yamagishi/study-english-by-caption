@@ -1,0 +1,23 @@
+.caption-body{
+    margin-top:16px;
+}
+
+.caption-content-body{
+    overflow: scroll;
+    height:90vh; 
+}
+
+.caption-content-content{
+    margin-bottom:25px;
+}
+
+.caption-content-search-button{
+    position: fixed;
+    bottom: 10%;
+    right: 40%;
+}
+
+.word-meaning-body{
+    overflow: scroll;
+    height:90vh; 
+}

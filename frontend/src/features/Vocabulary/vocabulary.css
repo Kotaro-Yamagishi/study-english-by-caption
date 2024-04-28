@@ -1,0 +1,9 @@
+.vocabulary-list-body{
+    overflow: scroll;
+    height:90vh; 
+}
+
+.word-meaning-body{
+    overflow: scroll;
+    height:90vh; 
+}
